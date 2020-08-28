@@ -1,0 +1,30 @@
+/*
+	author:    Pratyush
+	created:   28.08.2020 08:05:38
+*/
+#include <bits/stdc++.h>
+using namespace std;
+ 
+#define ll long long
+#define ld long double
+#define ar array
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
+ 
+int main(){
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
+	
+	int n;
+	cin>>n;
+	cout<<(!(n&1) and n>2?"YES":"NO");
+ 
+	
+#ifdef LOCAL_DEFINE
+	cerr << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " s" << endl;
+#endif
+	return 0;
+}
